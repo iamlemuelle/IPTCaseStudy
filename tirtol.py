@@ -14,7 +14,7 @@ colors = ["green", "red", "blue", "yellow", "violet", "indigo"]
 y_coor = [-100, -60, -20, 20, 60, 100]
 
 all_turtles = []
-
+#for loop to create 6 turtles
 for i in range(0, 6):
     new_turtle = Turtle(shape="turtle")
     new_turtle.penup()
